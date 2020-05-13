@@ -1,0 +1,139 @@
+@font-face {
+    font-family: BLADEMF;
+    src: url("../font/BLADRMF_.TTF");
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: antiquewhite;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+}
+
+#box {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    text-align: center;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.todo-list {
+    list-style: none;
+}
+
+.todo {
+    width: 80vh;
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+#todo-input {
+    font-family: BLADEMF;
+}
+
+.todo li {
+    flex: 1;
+}
+
+.trash-btn,
+.complete-btn,
+.timer-btn {
+    background-color: rgb(119, 119, 119);
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.complete-btn {
+    background-color: rgb(95, 212, 75);
+}
+.timer-btn {
+    background-color: rgb(255, 188, 43);
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash-alt,
+.fa-check-circle {
+    pointer-events: none;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+    color: blue;
+}
+
+#countdown_text {
+    font-family: BLADEMF;
+    font-size: 6rem;
+    text-align: center;
+}
+
+#start {
+    font-family: BLADEMF;
+}
+
+#stop {
+    font-family: BLADEMF;
+}
+
+#pouse {
+    font-family: BLADEMF;
+}
+
+.shita {
+    display: flex;
+    flex-direction: column;
+}
